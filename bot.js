@@ -8,7 +8,7 @@ const bot = new TelegramBot(token, { polling: true });
 
 bot.onText(/\/start/, (msg) => {
     const chatId = msg.chat.id;
-    const webAppUrl = 'https://hamster-kombat-clone.vercel.app';
+    const webAppUrl = 'https://hamster-kombat-clone-steel.vercel.app';
 
     console.log(`Send SMS to chat ${chatId} with button to open app: ${webAppUrl}`);
 
